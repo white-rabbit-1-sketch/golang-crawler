@@ -19,6 +19,8 @@
 - The mechanism for saving downloaded pages is implemented as a proof of concept – it saves pages but without preserving site structure, etc. This would require a separate, more comprehensive solution.
 - I understand the weak points and unfinished areas very well; all such aspects were intentionally skipped.
 
+- That's about it. Thanks to everyone who took the time to read this!
+
 ## Commands
 
 Common run:
@@ -29,8 +31,6 @@ Run from snapshot:
 ```bash
 clear && go run main.go --url=https://google.com/ --snapshot-file-path=state.dump --data-file-path=data --use-state
 ```
-
-- That's about it. Thanks to everyone who took the time to read this!
 
 
 # Краулер реализованный на голенге.
@@ -51,6 +51,8 @@ clear && go run main.go --url=https://google.com/ --snapshot-file-path=state.dum
 - Процессор сохранения скачанных страниц реализован условно, чисто как пруф оф концепт - сохранение есть, но без сохранения структуры сайта и тп, это отдельная большая история, если делать по уму
 - Я очень хорошо понимаю слабые места и недоделанные места, все такие моменты были пропущены намеренно
 
+Ну собственно вот и все. Спасибо всем, кто зашел ознакомиться :)
+
 ## Команда запуска
 
 Обычный запуск:
@@ -61,5 +63,3 @@ clear && go run main.go --url=https://google.com/ --snapshot-file-path=state.dum
 ```bash
 clear && go run main.go --url=https://google.com/ --snapshot-file-path=state.dump --data-file-path=data --use-state
 ```
-
-Ну собственно вот и все. Спасибо всем, кто зашел ознакомиться :)
