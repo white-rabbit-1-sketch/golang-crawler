@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-<title>Google</title>
-<script nonce="s5ewMgQIFQbHzQ-xTk8akg">
-  var url = 'https://madeby.google.com/home/';
-  url += window.location.search;
-  url += window.location.hash;
-  window.location = url;
-</script>
